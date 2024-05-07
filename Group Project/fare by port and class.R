@@ -2,7 +2,7 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 
-data <- read.csv("C:/Users/lilsl/OneDrive/Documents/School/INFSYS3830/titanic/train_edited.csv")  
+data <- read.csv("#Copy and paste file path to the train_edited.csv file you downloaded here")  
 
 ui <- fluidPage(
   titlePanel("Fare Paid by Class and Port Embarked"),
